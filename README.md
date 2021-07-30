@@ -53,3 +53,9 @@ The purpose of this app is to provide the user with weather information from all
     * I expect the navbar links to navigate me around the site correctly.
     * I expect a well-designed website that allows for an enjoyable user experience. 
 
+  * #### **Requirements**
+    * Responsive design that works on all devices.
+    * Navigation menu that is simple to use. 
+    * Well designed and functional web page.
+    * Visually appealing styling and imagery.
+    * Contact for the provides feedback.
