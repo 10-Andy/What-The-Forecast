@@ -74,4 +74,56 @@ The purpose of this app is to provide the user with weather information from all
 
 <a></a>
 ### **Surface**
-  
+
+<a></a>
+* #### **Fonts**
+    Cantarell
+    Ubuntu
+    
+<a></a>
+* #### **Icons**
+
+<a></a>
+* #### **Colors**
+
+<a></a>
+* ### **Existing Features**
+
+<a></a>
+* ### **Future Features**
+
+<a></a> 
+## **Deployment**
+
+  This project was deployed via GitHub by executing the following steps.
+After writing the code, committing and pushing it to GitHub:
+
+1. Log in to **GitHub** and locate the **Repository**
+1. Go to your github repository and click on **Settings** tab
+1. Then go to "**Pages** tab in the left hand side sidebar.
+1.Then under **Source** click the **None** dropdown and select the **Main** branch
+1. Click **Save**
+1. The page will update and at the top it will say: Your site is ready to be published at  ```https://YOURUSERNAME.github.io/REPONAME/```
+
+## **How to run the project locally**
+
+Open the **GitHub** Repository
+1. Click the Green **Code** Button above the files.
+1. Here you can either Clone or Download the repository.
+1. To clone the Repository using HTTPS, click on the clipboard to copy
+the link.
+1. Open **Git Bash**.
+1. Change the working directory to the location you want the cloned
+directory to be.
+1. Type **git clone** and paste the URL copied from step 3.
+1. Press **Enter** to create your clone.
+
+## **Credits**
+
+I've used the following websites for my project 
+
+
+
+
+## **Acknowledgements**
+
