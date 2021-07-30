@@ -59,3 +59,19 @@ The purpose of this app is to provide the user with weather information from all
     * Well designed and functional web page.
     * Visually appealing styling and imagery.
     * Contact for the provides feedback.
+
+ <a></a>
+### **Stucture**
+
+  * #### **Main page**
+    * A image based on the weather will be used for the background of the page.
+    * A search bar will be used to search the location the user wants, this will be below the navbar.
+    * Center of the page will hold all the information about the searched location.
+    
+<a></a>
+* #### **Wireframes**
+    [You can view all of the wireframes here]()
+
+<a></a>
+### **Surface**
+  
