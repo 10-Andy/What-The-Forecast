@@ -88,10 +88,14 @@ The purpose of this app is to provide the user with weather information from all
 
 <a></a>
 * ### **Existing Features**
-
+  * Search box for the user to search any location the choose, once the enter a location and click seacrh the __Weather API__ will return the weather data for that location.
+  * Background image changes depending on the data recieved from th weathers api.
+  
 <a></a>
 * ### **Future Features**
-
+  * A five day Forcast would allow the user to view today's weather and the next five days on the location searched.
+  * a news section to allow the user to view the main headlines in the location searched.
+  * A wind speed section to show the user the wind speed of the location searched.
 <a></a> 
 ## **Deployment**
 
