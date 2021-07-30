@@ -11,8 +11,9 @@ The purpose of this app is to provide the user with weather information from all
 ## Table Of Contents ##
 * [UX](#ux)
     * [Strategy](#Strategy)
-        * [User Stories](User-Stories)
+        * [User Stories](#User-Stories)
      * [Scope](#Scope)
+       * [Expectations](#Expectations)
      * [Stucture and Skeleton](#Stucture-andSkeleton)
         * [Wireframes](#Wireframes)
     * [Surface](#Surface)
@@ -40,6 +41,15 @@ The purpose of this app is to provide the user with weather information from all
   * As a User, I want to view the results of my search to get an idea of the current weather.
   * As a User, I want to easily enter my information.
   * As a User, I want to easily understand what I have to do.
+  * As a user, I want the website to be easy to navigate.
 
+<a></a>
+### **Scope**
 
+  * #### **Expectations** 
+    * I expect the app to show the locations of where the user has searched.
+    * I expect the app to show the weather, times, date and temperature of the area searched.
+    * I expect the apps background image to change depending on the weather shown.
+    * I expect the navbar links to navigate me around the site correctly.
+    * I expect a well-designed website that allows for an enjoyable user experience. 
 
