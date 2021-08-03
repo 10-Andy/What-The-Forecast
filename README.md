@@ -70,7 +70,12 @@ The purpose of this app is to provide the user with weather information from all
     
 <a></a>
 * #### **Wireframes**
-    [You can view all of the wireframes here](assets/images/wireframes)
+    
+  You can view all of the wireframes here
+
+    * [Desktop](assets/images/wireframes/WhatTheForecastDesktop.png)
+    * [Tablet](assets/images/wireframes/WhatTheForecastTablet.png)
+    * [Mobile](assets/images/wireframes/WhatTheForecastmobile.png)
 
 <a></a>
 ### **Surface**
