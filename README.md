@@ -70,7 +70,7 @@ The purpose of this app is to provide the user with weather information from all
     
 <a></a>
 * #### **Wireframes**
-    [You can view all of the wireframes here]()
+    [You can view all of the wireframes here](assets/images/wireframes)
 
 <a></a>
 ### **Surface**
@@ -88,8 +88,9 @@ The purpose of this app is to provide the user with weather information from all
 
 <a></a>
 * ### **Existing Features**
-  * Search box for the user to search any location the choose, once the enter a location and click seacrh the __Weather API__ will return the weather data for that location.
-  * Background image changes depending on the data recieved from th weathers api.
+  * Search box for the user to search any location they choose, they enter a place and click search, the __Weather API__ will return the weather data for that location.
+  * Background image, this changes depending on the data received from the __Weather API__.
+  * Live Weather area, it will show the weather information the user has searched.
   
 <a></a>
 * ### **Future Features**
