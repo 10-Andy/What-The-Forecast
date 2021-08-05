@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather+Sans:wght@400;500;600;800&display=swap');
+
 html {
     font-size: 62.5%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 ::placeholder { 
     color:honeydew;
@@ -11,21 +14,25 @@ html {
   
 
 body{
-    background-color: #262d43;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: linear-gradient(to bottom, rgba(219, 117, 21, 0.3), rgba(8, 17, 70, 0.8));
 }
 
 #button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 20px 20px;
+    padding: 80px 20px 20px;
 }
 .search-bar{
     width: 100%;
     max-width: 300px;
     padding: 15px 10px;
     text-align: center;
-    border-radius: 25px 0px 25px 0px;
+    border-radius: 25px 5px 25px 5px;
     font-size: 2rem;
     background-color: #878f95;
     font-weight: 700;
