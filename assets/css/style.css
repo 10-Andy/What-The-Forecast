@@ -52,3 +52,19 @@ body{
     color: #262d43;
     margin-bottom: 10px;
 }
+
+#city{
+    font-size: 4.5rem;
+    margin-bottom: 15px;
+}
+
+#day{
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+#time{
+    font-size:2.5rem;
+    margin-bottom: 15px;
+
+}
