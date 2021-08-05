@@ -34,7 +34,7 @@ body{
     text-align: center;
     border-radius: 25px 5px 25px 5px;
     font-size: 2rem;
-    background-color: #878f95;
+    background-color:rgba(8, 17, 70, 0.8);
     font-weight: 700;
     border: none;
     outline: none;
@@ -46,4 +46,9 @@ body{
     align-items: center;
     text-align: center;
     padding: 25px 25px 50px;
+}
+
+#location{
+    color: #262d43;
+    margin-bottom: 10px;
 }
