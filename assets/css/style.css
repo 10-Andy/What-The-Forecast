@@ -8,8 +8,9 @@ html {
     
 }
 ::placeholder { 
-    color: aliceblue;
-    opacity: 1; 
+    color: #fefefe;
+    opacity: 1;
+    text-align: center;
   }
   
 
@@ -18,7 +19,8 @@ body{
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Merriweather Sans', sans-serif;
-    background-image: linear-gradient(to bottom, rgba(252, 124, 5, 0.3), rgba(2, 3, 43, 0.9));
+    background-image: linear-gradient(to bottom, rgba(219, 117, 21, 0.3), rgba(8, 17, 70, 0.8));
+    
 }
 
 #button{
@@ -31,17 +33,21 @@ body{
 .search-bar{
     width: 100%;
     max-width: 300px;
-    padding: 25px 10px;
-    text-align: center;
+    padding: 15px 10px;
     border-radius: 25px 5px 25px 5px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     background-color:rgba(8, 17, 70, 0.404);
     font-weight: 700;
     border: none;
     outline: none;
-    color: #262d43;
-    
+    color: #fefefe;
+    text-align: center;
+    border-bottom: solid 2px #262d43;
 }
+
+.search-bar:focus {
+    background-color: #262d43;
+  }
 
 #display-area{
     display: flex;
@@ -59,8 +65,9 @@ body{
 #city{
     font-size: 4.5rem;
     margin-bottom: 15px;
-    font-weight: 500;
-    border-bottom: solid 2px #262d43;
+    font-weight: 700;
+    
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.4);
 }
 
 #day{
@@ -68,7 +75,7 @@ body{
     margin-bottom: 15px;
 }
 
-#time{
+#wind-speed{
     font-size:2rem;
     margin-bottom: 15px;
 }
@@ -80,7 +87,6 @@ body{
     color: #262d43;
     margin-top: 30px;
     margin-bottom: 20px;
-    border: solid 2px #262626;
 }
 
 #temp-range{
