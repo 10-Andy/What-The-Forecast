@@ -31,4 +31,9 @@
    let city = document.querySelector('#location #city');
    city.innerText = `${weather.name}, ${weather.sys.country}`;
 
- 
+    //Getting the date for city searched
+
+    let today = new Date();
+    let date = document.querySelector('#location #day');
+    date.innerText = dateArray(today);
+ }
