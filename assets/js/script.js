@@ -37,6 +37,12 @@
     let date = document.querySelector('#location #day');
     date.innerText = dateArray(today);
 
+    //Getting the temperature for city searched
+
+   let temperature = document.querySelector('#weather #temperature');
+   temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+
+ }
      //Function to select the full day, date, month and year
 
  function dateArray(d) {
