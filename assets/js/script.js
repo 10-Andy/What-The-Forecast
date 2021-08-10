@@ -42,6 +42,11 @@
    let temperature = document.querySelector('#weather #temperature');
    temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
+      //Getting the weather condition for city searched
+
+      let forcast = document.querySelector('#weather #forcast');
+      forcast.innerText = weather.weather[0].main;
+
  }
      //Function to select the full day, date, month and year
 
