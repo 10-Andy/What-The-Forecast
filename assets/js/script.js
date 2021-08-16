@@ -50,7 +50,7 @@ function displayData(weather) {
   //Getting the temperature range for city searched
 
   let range = document.querySelector('#temp-range');
-  range.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+  range.innerText = `${Math.round(weather.main.temp_min)}°c Min / ${Math.round(weather.main.temp_max)}°c Max`;
 }
 
 //Function to select the full day, date, month and year
