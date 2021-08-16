@@ -51,6 +51,30 @@ function displayData(weather) {
 
   let range = document.querySelector('#temp-range');
   range.innerText = `${Math.round(weather.main.temp_min)}°c Min / ${Math.round(weather.main.temp_max)}°c Max`;
+
+  // getting id to change weather image
+  
+  let id = `${weather.weather[0].id}`;
+  let weatherIcon = document.getElementById("temp-icon-img");
+
+  if (id < 250){
+    weatherIcon.src ='assets/images/weather-images/thunder.png'
+  }
+  else if (id < 550){
+    weatherIcon.src ='assets/images/weather-images/rain.png'
+  }
+  else if (id < 650){
+    weatherIcon.src ='assets/images/weather-images/snow.png'
+  }
+  else if (id < 800){
+    weatherIcon.src ='assets/images/weather-images/clear.png'
+  }
+  else if (id === 800){
+    weatherIcon.src ='assets/images/weather-images/sun.png'
+  }
+  else if (id > 800){
+    weatherIcon.src ='assets/images/weather-images/cloudy.png'
+  }
 }
 
 //Function to select the full day, date, month and year

@@ -11,6 +11,7 @@ html {
     color: #fefefe;
     opacity: 1;
     text-align: center;
+    
   }
   
 
@@ -43,6 +44,7 @@ body{
     color: #fefefe;
     text-align: center;
     border-bottom: solid 2px #262d43;
+    text-transform: capitalize;
 }
 
 .search-bar:focus {
@@ -75,9 +77,14 @@ body{
     margin-bottom: 15px;
 }
 
-#wind-speed{
-    font-size:2rem;
+#weather{
+    max-width: 100%;
+}
+
+#forcast{
+    font-size:4rem;
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 #temperature{
@@ -85,12 +92,13 @@ body{
     font-weight: 800;
     text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
     color: #262d43;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #temp-range{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-family: 'Lato', sans-serif;
     color: #262d43;
+    font-weight: 500;
 }
