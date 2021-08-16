@@ -18,7 +18,6 @@ The purpose of this app is to provide the user with weather information from all
         * [Wireframes](#Wireframes)
     * [Surface](#Surface)
         * [Fonts](#Typography)
-        * [Icons](#Icons)
         * [Colors](#Colors)
 * [Features](#Features)
     * [Existing Features](#Existing-Features)
@@ -48,9 +47,8 @@ The purpose of this app is to provide the user with weather information from all
 
   * #### **Expectations** 
     * I expect the app to show the locations of where the user has searched.
-    * I expect the app to show the weather, times, date and temperature of the area searched.
-    * I expect the apps background image to change depending on the weather shown.
-    * I expect the navbar links to navigate me around the site correctly.
+    * I expect the app to show the weather, date and temperature of the area searched.
+    * I expect the apps weather image to change depending on the weather shown.
     * I expect a well-designed website that allows for an enjoyable user experience. 
 
   * #### **Requirements**
@@ -64,8 +62,8 @@ The purpose of this app is to provide the user with weather information from all
 ### **Stucture**
 
   * #### **Main page**
-    * A image based on the weather will be used for the background of the page.
-    * A search bar will be used to search the location the user wants, this will be below the navbar.
+    * A image based on the weather will be used in the center of the page.
+    * A search bar will be used to search the location the user wants, this will be above everything on the page.
     * Center of the page will hold all the information about the searched location.
     
 <a></a>
@@ -82,19 +80,27 @@ The purpose of this app is to provide the user with weather information from all
 
 <a></a>
 * #### **Fonts**
-    Cantarell
-    Ubuntu
-    
-<a></a>
-* #### **Icons**
+  The fonts i have used are __Merriweather Sans__ And __Lato__.
+  Merriweather Sanswas used for the body of the app and Lato was used for the temperature range only.I used a text shadow to highlight the main data the user will be looking for the temperature and the location selected.
+
+
 
 <a></a>
 * #### **Colors**
+For the backgrounds i used a css style property __linear-gradient__ to add colors representing day and night.For the background color of the search bar and the text content in the body ive used a light blue color.
+the colours used are 
+
+Orange : rgba(219, 117, 21, 0.3) / #db7515
+Blue : rgba(8, 17, 70, 0.8) / #081146
+light blue : #262d43
+
+[Color image](assets/images/WhatTheForecast.png)
+
 
 <a></a>
 * ### **Existing Features**
   * Search box for the user to search any location they choose, they enter a place and click search, the __Weather API__ will return the weather data for that location.
-  * Background image, this changes depending on the data received from the __Weather API__.
+  * Weather image, this changes depending on the data received from the __Weather API__.
   * Live Weather area, it will show the weather information the user has searched.
   
 <a></a>
