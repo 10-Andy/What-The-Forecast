@@ -1,6 +1,6 @@
 # **What The Forecast?!!**
 
-![Mockup image](wireframes/mock-up-image.png)
+![Mockup image](assets/images/mockup/mockup.png)
 
 ## **Introduction**
 What The Forecast?!! is an interactive weather app built from my learnings of HTML, CSS and JavaScript.
@@ -108,6 +108,18 @@ the colours used are
   * A five day Forcast would allow the user to view today's weather and the next five days on the location searched.
   * a news section to allow the user to view the main headlines in the location searched.
   * A wind speed section to show the user the wind speed of the location searched.
+
+<a></a> 
+## **Testing**
+
+Lighthouse test results:
+ * [Desktop](assets/images/testing/lighthouse-deasktop.png)
+ * [Mobile](assets/images/testing/lighthouse-mobile.png)
+
+Code Validation:
+ * [HTML](assets/images/testing/html-val.png)
+
+
 <a></a> 
 ## **Deployment**
 
@@ -133,6 +145,14 @@ the link.
 directory to be.
 1. Type **git clone** and paste the URL copied from step 3.
 1. Press **Enter** to create your clone.
+
+## **How to fork the Repository**
+
+Fork the GitHub Reopsitory makes a copy of the orginal to view and/or make changes without affecting the orignal.
+Follow these steps:
+1. Login into Github and select the Repository you would like to "Fork".
+1. Select **Fork** Button on the top right of the page.
+1. A copy is now in your Github account.
 
 ## **Credits**
 
