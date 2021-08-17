@@ -90,9 +90,9 @@ The purpose of this app is to provide the user with weather information from all
 For the backgrounds i used a css style property __linear-gradient__ to add colors representing day and night.For the background color of the search bar and the text content in the body ive used a light blue color.
 the colours used are 
 
-Orange : rgba(219, 117, 21, 0.3) / #db7515
-Blue : rgba(8, 17, 70, 0.8) / #081146
-light blue : #262d43
+* Orange : rgba(219, 117, 21, 0.3) / #db7515
+* Blue : rgba(8, 17, 70, 0.8) / #081146
+* light blue : #262d43
 
 [Color image](assets/images/WhatTheForecast.png)
 

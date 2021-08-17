@@ -102,3 +102,7 @@ body{
     color: #262d43;
     font-weight: 500;
 }
+
+#temp-icon-img{
+    width:325px;
+}
