@@ -92,7 +92,7 @@ the colours used are:
 * Blue : rgba(8, 17, 70, 0.8) / #081146
 * light blue : #262d43
 
-[Color image](assets/images/wireframes/WhatTheForecast.png)
+![Color image](assets/images/wireframes/WhatTheForecast.png)
 
 
 <a></a>
