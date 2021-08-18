@@ -124,6 +124,7 @@ the colours used are:
 
 ### Code Validation:
  * [HTML](assets/images/testing/html-val.png)
+ * [CSS](assets/images/testing/css-val.png)
 
 ### Manual Testing 
 
