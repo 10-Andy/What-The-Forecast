@@ -35,7 +35,6 @@ The purpose of this app is to provide the user with weather information from all
 
 * #### **User Stories**
   * As a User, I want to input my custom location into an input field to get weather data from my desired location.
-  * As a User, I want some feedback to let me know the search request has gone through.
   * As a User, I want the home screen to be inviting and with information relevant to my search.
   * As a User, I want to view the results of my search to get an idea of the current weather.
   * As a User, I want to easily enter my information.
@@ -62,14 +61,14 @@ The purpose of this app is to provide the user with weather information from all
 ### **Stucture**
 
   * #### **Main page**
-    * A image based on the weather will be used in the center of the page.
+    * An image based on the weather to be used in the centre of the page.
     * A search bar will be used to search the location the user wants, this will be above everything on the page.
     * Center of the page will hold all the information about the searched location.
     
 <a></a>
 * #### **Wireframes**
     
-  You can view all of the wireframes here
+  You can view all of the wireframes here:
 
     * [Desktop](assets/images/wireframes/WhatTheForecastDesktop.png)
     * [Tablet](assets/images/wireframes/WhatTheForecastTablet.png)
@@ -80,21 +79,20 @@ The purpose of this app is to provide the user with weather information from all
 
 <a></a>
 * #### **Fonts**
-  The fonts i have used are __Merriweather Sans__ And __Lato__.
-  Merriweather Sanswas used for the body of the app and Lato was used for the temperature range only.I used a text shadow to highlight the main data the user will be looking for the temperature and the location selected.
-
+  The fonts I have used are __Merriweather Sans__ And __Lato__.
+  Merriweather Sanswas used for the body of the app and Lato was used for the temperature range only. I used a text shadow to highlight the main data the user will be looking for the temperature and the location selected.
 
 
 <a></a>
-* #### **Colors**
-For the backgrounds i used a css style property __linear-gradient__ to add colors representing day and night.For the background color of the search bar and the text content in the body ive used a light blue color.
-the colours used are 
+* #### **Colours**
+For the backgrounds, I used a CSS style property __linear-gradient__ to add colours representing day and night. For the background colour of the search bar and the text content in the body, I've used a light blue colour.
+the colours used are:
 
 * Orange : rgba(219, 117, 21, 0.3) / #db7515
 * Blue : rgba(8, 17, 70, 0.8) / #081146
 * light blue : #262d43
 
-[Color image](assets/images/WhatTheForecast.png)
+[Color image](assets/images/wireframes/WhatTheForecast.png)
 
 
 <a></a>
@@ -112,13 +110,26 @@ the colours used are
 <a></a> 
 ## **Testing**
 
-Lighthouse test results:
+### As a User, I want to input my custom location into an input field to get weather data from my desired location.
+  1. The home page is a clean simple design with on search function.
+    ![Test Image](assets/images/testing/testing-img.png)
+  1. Enter the deiserd loction into the seacrh field.
+   ![Test Image](assets/images/testing/testing-img-1.png)
+  1. The information about the location searched is displayed.
+   ![Test Image](assets/images/testing/testing-img-2.png)
+
+### Lighthouse test results:
  * [Desktop](assets/images/testing/lighthouse-deasktop.png)
  * [Mobile](assets/images/testing/lighthouse-mobile.png)
 
-Code Validation:
+### Code Validation:
  * [HTML](assets/images/testing/html-val.png)
 
+### Manual Testing 
+
+* I tested the website layout and function on different browsers.
+* I tested the page on different mobile and tablet devices.
+* I've tested the search field to make sure it is functioning correctly.
 
 <a></a> 
 ## **Deployment**
