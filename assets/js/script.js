@@ -1,92 +1,76 @@
  // Api key and url from weather api 
  const api = {
-  key: "37abfe43d33b5016e5852898f11e9a2e",
-  base: "https://api.openweathermap.org/data/2.5/"
-}
+   key: "37abfe43d33b5016e5852898f11e9a2e",
+   base: "https://api.openweathermap.org/data/2.5/"
+ }
+ const cityRef = document.querySelector('#location #city');
+ const dateRef = document.querySelector('#location #day');
+ const temperatureRef = document.querySelector('#weather #temperature');
+ const forcastRef = document.querySelector('#weather #forcast');
+ const rangeRef = document.querySelector('#temp-range');
 
-//set up event listener on enter key for the search bar 
-const searchbar = document.querySelector('.search-bar');
-searchbar.addEventListener('keypress', searchQuery);
 
-function searchQuery(evt) {
+ //set up event listener on enter key for the search bar 
+ const searchbar = document.querySelector('.search-bar');
+ searchbar.addEventListener('keypress', searchQuery);
+ 
+ function searchQuery(evt) {
   if (evt.keyCode == 13) {
-    getData(searchbar.value);
+    searchbar.value && getData( searchbar.value );
   }
 }
+ // Run a fetch requst on api to return the data from searchbox in metric units converting it into json
+ function getData(query) {
+ 
+   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
+   .then(weather => weather.json()).then(displayData);
+ };
 
-// Run a fetch requst on api to return the data from searchbox in metric units converting it into json
-function getData(query) {
-  fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-    .then(weather => {
-      return weather.json();
-    }).then(displayData);
-}
+ //Funtion for getting the data for the city searched
 
-//Funtion for getting the data for the city searched
+ function displayData(weather) {
+ 
+   cityRef.innerText = `${weather.name}, ${weather.sys.country}`;
 
-function displayData(weather) {
+   let today = new Date();
 
-  //returns the city and country searched by the user
+   dateRef.innerText = todaysDate(today);
 
-  let city = document.querySelector('#location #city');
-  city.innerText = `${weather.name}, ${weather.sys.country}`;
+   temperatureRef.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
-  //Getting the date for city searched
+   forcastRef.innerText = weather.weather[0].main;
 
-  let today = new Date();
-  let date = document.querySelector('#location #day');
-  date.innerText = dateArray(today);
+   rangeRef.innerText = `${Math.round(weather.main.temp_min)}°c Min / ${Math.round(weather.main.temp_max)}°c Max`;
 
-  //Getting the temperature for city searched
 
-  let temperature = document.querySelector('#weather #temperature');
-  temperature.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
+   let id = `${weather.weather[0].id}`;
+   let weatherIcon = document.getElementById("temp-icon-img");
 
-  //Getting the weather condition for city searched
+   if (id < 250) {
+     weatherIcon.src = 'assets/images/weather-images/thunder.png'
+   } else if (id < 550) {
+     weatherIcon.src = 'assets/images/weather-images/rain.png'
+   } else if (id < 650) {
+     weatherIcon.src = 'assets/images/weather-images/snow.png'
+   } else if (id < 800) {
+     weatherIcon.src = 'assets/images/weather-images/clear.png'
+   } else if (id === 800) {
+     weatherIcon.src = 'assets/images/weather-images/sun.png'
+   } else if (id > 800) {
+     weatherIcon.src = 'assets/images/weather-images/cloudy.png'
+   }
+ }
 
-  let forcast = document.querySelector('#weather #forcast');
-  forcast.innerText = weather.weather[0].main;
+ //Function to select the full day, date, month and year
 
-  //Getting the temperature range for city searched
+ function todaysDate(todaysFullDate) {
+   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-  let range = document.querySelector('#temp-range');
-  range.innerText = `${Math.round(weather.main.temp_min)}°c Min / ${Math.round(weather.main.temp_max)}°c Max`;
+   let day = days[todaysFullDate.getDay()];
+   let date = todaysFullDate.getDate();
+   let month = months[todaysFullDate.getMonth()];
+   let year = todaysFullDate.getFullYear();
 
-  // getting id to change weather image
-  
-  let id = `${weather.weather[0].id}`;
-  let weatherIcon = document.getElementById("temp-icon-img");
-
-  if (id < 250){
-    weatherIcon.src ='assets/images/weather-images/thunder.png'
-  }
-  else if (id < 550){
-    weatherIcon.src ='assets/images/weather-images/rain.png'
-  }
-  else if (id < 650){
-    weatherIcon.src ='assets/images/weather-images/snow.png'
-  }
-  else if (id < 800){
-    weatherIcon.src ='assets/images/weather-images/clear.png'
-  }
-  else if (id === 800){
-    weatherIcon.src ='assets/images/weather-images/sun.png'
-  }
-  else if (id > 800){
-    weatherIcon.src ='assets/images/weather-images/cloudy.png'
-  }
-}
-
-//Function to select the full day, date, month and year
-
-function dateArray(d) {
-  let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-
-  let day = days[d.getDay()];
-  let date = d.getDate();
-  let month = months[d.getMonth()];
-  let year = d.getFullYear();
-
-  return `${day} ${date} ${month} ${year}`;
-}
+   return `${day} ${date} ${month} ${year}`;
+ }
