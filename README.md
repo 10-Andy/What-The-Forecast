@@ -25,7 +25,7 @@ The purpose of this app is to provide the user with weather information from all
 * [Technologies Used](#Technologies-Used)
 * [Testing](#Testing)
 * [Deployment](#Deployment)
-* [Credits](#Credits)
+* [Acknowledgements](#Acknowledgements)
 
 <a name="ux"></a>
 ## **UX**
@@ -107,13 +107,32 @@ the colours used are:
   * a news section to allow the user to view the main headlines in the location searched.
   * A wind speed section to show the user the wind speed of the location searched.
 
+<a></a>
+## **Technologies Used**
+<a></a>
+* ### **Languages**
+     * [HTML](https://en.wikipedia.org/wiki/HTML)
+     * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+     * [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+* ### **Tools and Libraries**
+     * [GitHub](https://github.com/)
+     * [Google Fonts](https://fonts.google.com/)
+     * [Balsamic](https://balsamiq.com/wireframes/)
+     * [Stack Overflow](https://stackoverflow.com/)
+     * [W3C HTML Validation Service](https://validator.w3.org/)
+     * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+     * [techsini](http://techsini.com/)
+     * [Youtube](https://www.youtube.com/)
+
 <a></a> 
 ## **Testing**
 
 ### As a User, I want to input my custom location into an input field to get weather data from my desired location.
   1. The home page is a clean simple design with on search function.
     ![Test Image](assets/images/testing/testing-img.png)
-  1. Enter the deiserd loction into the seacrh field.
+  1. Enter the desired loction into the seacrh field.
    ![Test Image](assets/images/testing/testing-img-1.png)
   1. The information about the location searched is displayed.
    ![Test Image](assets/images/testing/testing-img-2.png)
@@ -125,12 +144,15 @@ the colours used are:
 ### Code Validation:
  * [HTML](assets/images/testing/html-val.png)
  * [CSS](assets/images/testing/css-val.png)
+ * [Javascript](assets/images/testing/jshint.png)
 
 ### Manual Testing 
 
 * I tested the website layout and function on different browsers.
 * I tested the page on different mobile and tablet devices.
 * I've tested the search field to make sure it is functioning correctly.
+* When testing the search function, I found that when you misspell or don't write anything into the search bar it logs a fault in the console. For this, I found help on [Stack Overflow](https://stackoverflow.com/).
+
 
 <a></a> 
 ## **Deployment**
@@ -139,11 +161,11 @@ the colours used are:
 After writing the code, committing and pushing it to GitHub:
 
 1. Log in to **GitHub** and locate the **Repository**
-1. Go to your github repository and click on **Settings** tab
-1. Then go to "**Pages** tab in the left hand side sidebar.
+1. Go to your GitHub repository and click on the **Settings** tab
+1. Then go to the **Pages** tab in the left-hand side sidebar.
 1.Then under **Source** click the **None** dropdown and select the **Main** branch
 1. Click **Save**
-1. The page will update and at the top it will say: Your site is ready to be published at  ```https://YOURUSERNAME.github.io/REPONAME/```
+1. The page will update and at the top, it will say: Your site is ready to be published at  ```https://YOURUSERNAME.github.io/REPONAME/```
 
 ## **How to run the project locally**
 
@@ -152,7 +174,7 @@ Open the **GitHub** Repository
 1. Here you can either Clone or Download the repository.
 1. To clone the Repository using HTTPS, click on the clipboard to copy
 the link.
-1. Open **Git Bash**.
+1. Open your favourite **Terminal**.
 1. Change the working directory to the location you want the cloned
 directory to be.
 1. Type **git clone** and paste the URL copied from step 3.
@@ -160,18 +182,16 @@ directory to be.
 
 ## **How to fork the Repository**
 
-Fork the GitHub Reopsitory makes a copy of the orginal to view and/or make changes without affecting the orignal.
+Fork the GitHub Repository makes a copy of the original to view and/or make changes without affecting the original.
 Follow these steps:
 1. Login into Github and select the Repository you would like to "Fork".
-1. Select **Fork** Button on the top right of the page.
+1. Select the **Fork** Button on the top right of the page.
 1. A copy is now in your Github account.
 
-## **Credits**
 
-I've used the following websites for my project 
-
-
-
-
+<a></a>
 ## **Acknowledgements**
 
+* My Mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) helping me throughout this project.
+* Stack Overflow for helping me with any queries I had.
+* Tyler Potts Video on [Youtube](https://www.youtube.com/watch?v=GuA0_Z1llYU/) help me along the way.
