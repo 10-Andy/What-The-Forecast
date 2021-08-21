@@ -194,4 +194,4 @@ Follow these steps:
 
 * My Mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) helping me throughout this project.
 * Stack Overflow for helping me with any queries I had.
-* Tyler Potts Video on [Youtube](https://www.youtube.com/watch?v=GuA0_Z1llYU/) help me along the way.
+* Tyler Potts Video on [Youtube](https://www.youtube.com/watch?v=GuA0_Z1llYU/) helped me along the way.
